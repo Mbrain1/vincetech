@@ -4,7 +4,7 @@
 
 
 .btn {
-    @apply  py-2 px-4 rounded-3xl text-[12px];
+    @apply  py-2 px-4 rounded-3xl text-[14px];
 }
 
 .btn-blue {

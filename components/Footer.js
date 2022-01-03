@@ -2,7 +2,7 @@ const Footer = (props) => {
   return (
    <footer className="grey-3-bg py-5">
 
-    <div className="container mx-auto">
+    <div className="container mx-auto text-[14px]">
       
           <div className="text-center">
               <span className="mx-2"><a href="#">Home</a></span> | 

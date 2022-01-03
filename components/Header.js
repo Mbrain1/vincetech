@@ -3,12 +3,12 @@ import Link from "next/link";
 const Header = (props) => {
   return (
     <nav>
-    <div className="container nav-1 mx-auto md:flex justify-between items-center mb-3 py-1 hidden">
-        <div><span><i className="fas fa-telephone"></i>8068345971</span> | <span><i className="fas fa-mail"></i>siredet30@gmail.com</span> </div>
+    <div className="container nav-1 mx-auto md:flex justify-between items-center py-1 hidden">
+        <div><span><i className="fas fa-telephone"></i>+2348068345971</span> | <span><i className="fas fa-mail"></i>info@vincetechnologies.com</span> </div>
 
         <div><span>Login</span> | <span>Sign Up</span></div>
     </div>
-   <div className="container nav-1 mx-auto flex justify-between items-center py-2">
+   <div className="container nav-1 mx-auto flex justify-between items-center py-4">
           <img alt="" src="/images/logo.png" width="130" />
 
           <ul className="hidden md:flex">
@@ -26,7 +26,7 @@ const Header = (props) => {
               <div className="w-5 h-1 bg-gray-600 mb-1"></div>
               <div className="w-5 h-1 bg-gray-600"></div>
 
-              <div className="z-50 absolute top-0 -right-full h-screen w-7/12 bg-white border opacity-0 group-focus:right-0 group-focus:opacity-100 transition-all duration-300">
+              <div className="z-50 absolute top-0 -right-full h-screen w-8/12 bg-white border opacity-0 group-focus:right-0 group-focus:opacity-100 transition-all duration-300">
                     <ul className="flex flex-col items-center w-full text-base cursor-pointer  border-b">
 
                       <li className="py-4 px-6 w-full text-left blue-2-bg text-[14px]">
